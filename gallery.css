@@ -7,7 +7,9 @@
 	  
 	
 	}	
-	.gal img{ width: 100%; padding: 7px 0;}
+	.gal img{ width: 100%; height:auto;}
+
+
 @media (max-width: 500px) {
 		
 		.gal {
