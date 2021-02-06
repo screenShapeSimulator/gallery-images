@@ -7,6 +7,12 @@
 <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
 <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 <!------ Include the above in your HEAD tag ---------->
+	
+	<script>
+	var x=document.getElementById("gal");
+	for(i=1;i<=50;i++)
+	x.innerHTML+="<img src=\""+i+".jpg\" width=\"300\" height=\"240\" >";
+</script>
 </head>
 <body>
 
@@ -21,11 +27,7 @@
 	<div class="gal" id="gal">
 	</div>
 	
-<script>
-	var x=document.getElementById("gal");
-	for(i=1;i<=50;i++)
-	x.innerHTML+="<img src=\""+i+".jpg\" width=\"300\" height=\"240\" >";
-</script>
+
 
 </div>
 </div>
